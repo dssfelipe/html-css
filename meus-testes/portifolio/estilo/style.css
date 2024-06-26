@@ -17,7 +17,7 @@
 }
 
 body {
-    background-color: var(--cor0);
+    background-image: url('imagens/wallpaper-universo.jpeg');
     color: white;
     font-family: 'outfit', 'cursive';
     text-align: center;
