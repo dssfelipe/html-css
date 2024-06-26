@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+KR:wght@100..900&family=Sedan+SC&display=swap');
+
+:root {
+    --cor1:white;
+    --cor2: black;
+    --cor3: gray;
+    --cor4: #8f3dd294;
+    --cor5: #89C4F5;
+    --cor6: rgba(0, 0, 0, 0.13);
+
+    --font-korea: 'Noto Sans KR', 'cursive';
+    --font-titulo: 'Bebas Neue', 'cursive';
+    --font-principal: 'Sedan SC', 'arial';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body {
+    background-image: linear-gradient(to left, var(--cor4), var(--cor5));
+}
+
+.cabeca {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.logo {
+    text-align: center;
+    
+}
+
+.logo-bts {
+    font: var(--font-titulo);
+    font-size: 45px;
+    font-weight: bold;
+}
+
+
+.navegacao > a {
+    font-family: var(--font-principal);
+    font-size: 16.5px;
+    color: var(--cor1);
+    padding: 10px;
+    
+}
+
+.navegacao > a:hover {
+    background-color: var(--cor4);
+    transition-duration: 1s;
+    border-radius: 10px;
+    
+}
+
+/*inicio pg index*/
+
+.conteudo {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+}
+
+.conteudo-principal-paragrafo {
+    width: 300px;
+    font-family: var(--font-principal);
+    background-color: transparent;
+    
+}
+
+.conteudo-img {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px var(--cor6);
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.rodape-titulo {
+    font-family: var(--font-principal);
+}
+
+.rodape-musica {
+    width: 500px;
+}
+
+/*fim pg index*/
+
+/*inicio pg 02*/
+
+.cabeca-pg02 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    height: 150px;
+    background-image: linear-gradient(to left, var(--cor4), var(--cor5));
+}
+
+.corpo-pg02 {
+    background-color: var(--cor1);
+    
+}

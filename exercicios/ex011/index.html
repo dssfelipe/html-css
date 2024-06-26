@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simpçesmente aumente e dimiua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexivel">
+    </picture>
+    <h2>Reproduzindo Áudio</h2>
+    <p>Vamos aprender a reproduzir áudios no HTML5.</p>
+    <audio preload="metadata" controls > <!--Arquivos compativeis: MP3, OGG e WAV-->
+        <source src="midia/tubby-steve-adams.mp3" type="audio/mpeg">
+        <source src="midia/tubby-steve-adams.ogg" type="audio/ogg">
+        <source src="midia/tubby-steve-adams.wav" type="audio/wav"> <!--Arquivos enormes, não utilizar-->
+        <p>Infelizmente seu navegador não é compativel com o formatos de arquivos em audio. para ouvilo faça o download. <a href="midia/tubby-steve-adams.mp3">tubby-steve-adams</a></p>
+    </audio>
+    <P>Podcast do Guanabara:</P>
+    <audio preload="metadata" controls>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+    </audio>
+</body>
+</html>

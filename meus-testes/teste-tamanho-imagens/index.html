@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resolução de imagens</title>
+</head>
+<body>
+    <h1><code>Imagem flexível</code></h1>
+    
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagem-300px.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-700px.jpg" type="image/jpg">
+        <img src="imagens/imagem-1000px.jpg" alt="imagem adaptavel">
+
+    </picture>
+
+
+</body>
+</html>

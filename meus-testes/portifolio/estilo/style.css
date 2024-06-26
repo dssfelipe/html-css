@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root {
+    --cor0: rgb(0, 0, 0);
+    --cor1: rgb(255, 255, 255);
+    --cor2: rgb(37, 37, 37);
+    --cor3: rgb(51, 51, 51);
+    --cor4: rgb(112, 194, 79);
+    --cor5: rgb(116, 116, 116);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor0);
+    color: white;
+    font-family: 'outfit', 'cursive';
+    text-align: center;
+    
+}
+
+main {
+    background-color: var(--cor2);
+    max-width: 500px;
+    min-width: 280px;
+    max-height: 1800px;
+    min-height: 200px;
+    margin: 80px auto 30px auto;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    
+}
+
+h1 {
+    font-size: 1.8em;
+
+}
+
+h2 {
+    color: var(--cor4);
+    font-size: 1.3em;
+    padding-bottom: 20px;
+}
+
+p {
+    padding-bottom: 20px;
+}
+
+
+nav a {
+    display: block;
+    color: var(--cor1);
+    text-decoration: none;
+    
+}
+
+nav a:hover {
+    transition-duration: 0.5s;
+    background-color: var(--cor5);
+    color: var(--cor0);
+}
+
+.git {
+    background-color: var(--cor3);
+    width: 60%;
+    margin: auto;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.front {
+    background-color: var(--cor3);
+    width: 60%;
+    margin: auto;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.kedin {
+    background-color: var(--cor3);
+    width: 60%;
+    margin: auto;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.x {
+    background-color: var(--cor3);
+    width: 60%;
+    margin: auto;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.insta {
+    background-color: var(--cor3);
+    width: 60%;
+    margin: auto;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
