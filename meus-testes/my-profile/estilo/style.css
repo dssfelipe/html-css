@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+   font-family: var(--font-conteudo);
+   margin: 0px;
+   padding: 0px;
+}
+
+:root {
+    --font-titulo: 'Young Serif', 'cursive';
+    --font-conteudo: 'Outfit', 'cursive';
+}
+
+body {
+    background-color: rgba(128, 128, 128, 0.459);
+    
+}
+
+/*inicio-header*/
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: black;
+    color: white;
+    box-shadow: -1px 0px 7px 1px black;
+}
+
+.title {
+    font-size: 20px;
+}
+
+li {
+    display: inline-block;
+    
+}
+
+a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#linke > a:hover {
+    color: #0e76a8;
+    transition: 0.3s;
+
+}
+#git > a:hover {
+    color: lightslategray;
+    transition: 0.3s;
+
+}
+#whats > a:hover {
+    color: #25D366;
+    transition: 0.3s;
+
+}
+
+.menu > ul > li > a:hover {
+    background-color: rgba(176, 79, 218, 0.534);
+    border-radius: 10px;
+    transition: 0.2s;
+}
+/*fim-header*/
+
+/*inicio-main*/
+main {
+    display: flex;
+    padding-top: 100px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+aside {
+    width: 450px;
+    padding-left: 60px;
+    text-shadow: 2px 1px 20px rgba(0, 0, 0, 0.671);
+    
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    height: 20px;
+    margin-top: 103px;
+    
+}
+
