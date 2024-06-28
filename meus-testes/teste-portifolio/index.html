@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feipe.dss</title>
+</head>
+<style>
+    @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+   font-family: var(--font-conteudo);
+   margin: 0px;
+   padding: 0px;
+}
+
+:root {
+    --font-titulo: 'Young Serif', 'cursive';
+    --font-conteudo: 'Outfit', 'cursive';
+}
+
+body {
+    background-color: rgba(128, 128, 128, 0.459);
+}
+
+/*inicio-header*/
+.cabecalio  {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 100px;
+    color: white;
+    box-shadow: -1px -1px 7px 0px black;
+}
+
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    
+
+}
+
+#linke:hover {
+    color: #0e76a8;
+    transition: 0.3s;
+}
+
+#git:hover {
+    color: gray;
+    transition: 0.3s;
+}
+
+#whats:hover {
+    color: #128C7e;
+    transition: 0.3s;
+}
+
+.menu > nav a:hover {
+    color: rgb(128, 128, 128);
+    transition: 0.3s;
+
+}
+/*fim-header*/
+
+/*inicio-main*/
+main {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 80px;
+}
+
+.foto {
+    padding-left: 120px;
+}
+
+.texto {
+    width: 550px;
+    padding-left: 50px;
+}
+/*fim-main*/
+
+/*inicio-footer*/
+footer {
+    background-color: black;
+    height: 20px;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 103px;
+    
+}
+
+
+
+
+</style>
+<body>
+    <header class="cabecalio">
+        <h1>&#60/felipedss&#62</h1>
+        <div class="redes">
+            <nav>
+                <a id="linke" href="https://www.linkedin.com/in/felipe-dos-santos-da-silva-389534300/" target="_blank">Linkedim</a>
+                <a id="git" href="https://github.com/dssfelipe" target="_blank">GitHub</a>
+                <a id="whats" href="https://wa.me/5511953528189" target="_blank">WhatsApp</a>
+            </nav>
+        </div>
+
+        <div class="menu">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Portfólio</a>
+                <a href="#">Conhecimentos</a>
+                <a href="#">Skills</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <main class="corpo">
+        <div class="foto">
+            <img src="imagens/eu.jpeg" alt="felipedss">
+        </div>
+
+        <div class="texto">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates quidem eveniet aliquid cupiditate. Commodi officia natus earum maxime odit doloremque ea laudantium molestias, nobis, tempora vitae ratione deserunt culpa voluptate..</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum quasi corporis impedit totam ipsam repellendus fuga laborum voluptatem saepe tempore quibusdam, dicta natus eius maxime provident enim sit deleniti eveniet?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere alias nisi rem quia. Dignissimos magni impedit iusto architecto sapiente quisquam deserunt, voluptate alias! Distinctio, rem? Nesciunt nobis odio quisquam a!</p>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&#169 Todos os direitos reservados à Felipe dos Santos  2024 - 2024</p>
+
+    </footer>
+    
+</body>
+</html>

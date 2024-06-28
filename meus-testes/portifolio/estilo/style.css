@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
+
 :root {
     --cor0: rgb(0, 0, 0);
     --cor1: rgb(255, 255, 255);
@@ -17,7 +18,7 @@
 }
 
 body {
-    background-image: url('imagens/wallpaper-universo.jpeg');
+    background-color: var(--cor0);
     color: white;
     font-family: 'outfit', 'cursive';
     text-align: center;
