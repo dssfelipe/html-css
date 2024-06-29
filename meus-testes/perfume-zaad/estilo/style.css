@@ -6,8 +6,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 @font-face {
-    font-family: 'Money wise', 'serif';
-    src: url("fontes/moneywise.ttf");
+    font-family: moneywise;
+    src: url("../fontes/Moneywise.ttf");
 }
 
 
@@ -19,7 +19,7 @@
     --font-money: "moneywise", "serif";
     
     --cor-azul-1: #018FA2;
-    --cor-champagne-2: #FFEAD0;
+    --cor-champagne-2: #fff3e3;
     --cor-midnight-green-3: #113537;
     --cor-lavander-4: #EEEFFF;
 }
@@ -27,22 +27,31 @@
 * {
     margin: 0px auto;
     padding: 0px;
+    font-family: var(--font-principal);
     
 }
 
 body {
-    background-color: #b1e5ec9f;
+    background-image: url(../imagens/plano-de-fundo2.jpg);
 }
 
 .corpo {
     background-color: var(--cor-champagne-2);
     width: 400px;
+    height: 790px;
+    border-radius: 10px;
 }
 /*inicio-header*/
-header #foto-zaad {
+header {
     display: flex;
+}
+
+header #foto-zaad {
     width: 350px;
     height: 300px;
+    margin-top: 25px;
+    border-radius: 10px 10px 0px 0px;
+    
 }
 /*fim-header*/
 
@@ -51,6 +60,7 @@ main {
     width: 350px;
     background-color: white;
     text-align: left;
+    border-radius: 0px 0px 10px 10px;
 }
 
 section {
@@ -64,15 +74,18 @@ section {
 
 .conteudo > h1 {
     padding-bottom: 8px;
+    font-size: 28px;
+    font-family: var(--font-monster);
 }
 
 #perfume {
     font-family: var(--font-perfume);
     font-weight: 400;
+    color: gray;
     padding-top: 25px;
     padding-bottom: 8px;
 }
-/*fim-main*/
+
 
 article > ul {
     list-style: none;
@@ -89,7 +102,7 @@ article > ul {
 
 #preco {
     font-size: 50px;
-    font-family: "Money wise";
+    font-family: "moneywise";
     color: var(--cor-midnight-green-3);
     
 }
@@ -97,4 +110,23 @@ article > ul {
 article > p {
     text-align: left;
     padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+/*fim-main*/
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-azul-1);
+    width: 350px;
+    height: 45px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+footer > p {
+    color: white;
+    font-family: var(--font-principal);
 }
