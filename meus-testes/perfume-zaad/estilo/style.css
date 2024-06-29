@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'Money wise', 'serif';
+    src: url("fontes/moneywise.ttf");
+}
+
+
+:root {
+    --font-principal: "Open Sans", 'sans-serif', 'arial';
+    --font-perfume: "Source Code Pro", "monospace", "cursive";
+    --font-monster: "Montserrat", sans-serif;
+    --font-roboto: "Roboto Condensed", sans-serif;
+    --font-money: "moneywise", "serif";
+    
+    --cor-azul-1: #018FA2;
+    --cor-champagne-2: #FFEAD0;
+    --cor-midnight-green-3: #113537;
+    --cor-lavander-4: #EEEFFF;
+}
+
+* {
+    margin: 0px auto;
+    padding: 0px;
+    
+}
+
+body {
+    background-color: #b1e5ec9f;
+}
+
+.corpo {
+    background-color: var(--cor-champagne-2);
+    width: 400px;
+}
+/*inicio-header*/
+header #foto-zaad {
+    display: flex;
+    width: 350px;
+    height: 300px;
+}
+/*fim-header*/
+
+/*inicio-main*/
+main {
+    width: 350px;
+    background-color: white;
+    text-align: left;
+}
+
+section {
+    padding-bottom: 20px;
+}
+
+
+.conteudo {
+    padding-left: 10px;
+}
+
+.conteudo > h1 {
+    padding-bottom: 8px;
+}
+
+#perfume {
+    font-family: var(--font-perfume);
+    font-weight: 400;
+    padding-top: 25px;
+    padding-bottom: 8px;
+}
+/*fim-main*/
+
+article > ul {
+    list-style: none;
+    padding-left: 10px;
+    text-align: left;
+    padding-bottom: 8px;
+}
+
+#dashed {
+    text-decoration: line-through;
+    font-weight: 500;
+
+}
+
+#preco {
+    font-size: 50px;
+    font-family: "Money wise";
+    color: var(--cor-midnight-green-3);
+    
+}
+
+article > p {
+    text-align: left;
+    padding-left: 10px;
+}

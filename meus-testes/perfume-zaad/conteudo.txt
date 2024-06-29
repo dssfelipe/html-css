@@ -1,0 +1,18 @@
+Zaad Arctic Eau de Parfum 95ml
+
+Zaad Arctic Eau De Parfum apresenta uma fragrância que te convida a viajar para viver a liberdade do inesperado.
+O Boticário embarcou rumo à Islândia para se aventurar nas paisagens surpreendentes do Ártico em busca de inspiração e encontrou no contraste da paisagem o caminho para criar o seu novo sucesso da perfumaria masculina.
+
+--R$ 299,90 -10%--
+R$ 269,90
+10x R$ 26,99
+Ganhe 270 pontos no Clube Viva com esse produto!
+
+Saiba mais sobre o Cashback.
+
+cores {
+    #018FA2 azul - principal
+    #FFEAD0 champagne - secudaria
+    #113537 midnight gren - terceira
+    #EEEFFF lavander - quarta
+}
