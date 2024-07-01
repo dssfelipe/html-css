@@ -29,7 +29,7 @@ body{
 .corpo2 {
     background-color: #608A67;
     max-width: 600px;
-    height: 160px;
+    height: auto;
     padding: 1px 30px 30px 30px;
     margin-top: 35px;
     margin-left: auto;
@@ -41,7 +41,7 @@ body{
 .corpo3 {
     background-color: #608A67;
     max-width: 600px;
-    height: 350px;
+    height: auto;
     padding: 1px 30px 30px 30px;
     margin-top: 50px;
     margin-left: auto;
