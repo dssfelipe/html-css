@@ -10,8 +10,8 @@ body{
 
 .corpo {
     background-color: #608A67;
-    width: 600px;
-    height: 500px;
+    max-width: 600px;
+    height: auto;
     padding: 1px 30px 30px 30px;
     margin-top: 35px;
     margin-left: auto;
@@ -28,7 +28,7 @@ body{
 
 .corpo2 {
     background-color: #608A67;
-    width: 600px;
+    max-width: 600px;
     height: 160px;
     padding: 1px 30px 30px 30px;
     margin-top: 35px;
@@ -40,7 +40,7 @@ body{
 
 .corpo3 {
     background-color: #608A67;
-    width: 600px;
+    max-width: 600px;
     height: 350px;
     padding: 1px 30px 30px 30px;
     margin-top: 50px;
