@@ -23,9 +23,12 @@ body {
 /*inicio-header*/
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    height: 80px;
+    max-width: 2000px;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: black;
     color: white;
     box-shadow: -1px 0px 7px 1px black;
@@ -63,7 +66,7 @@ a {
 }
 
 .menu > ul > li > a:hover {
-    background-color: rgba(176, 79, 218, 0.534);
+    color: gray;
     border-radius: 10px;
     transition: 0.2s;
 }
@@ -74,15 +77,21 @@ main {
     display: flex;
     padding-top: 100px;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
-    max-width: 1200px;
     margin: auto;
 }
 
 
+article {
+    padding-left: 120px;
+    padding-bottom: 30px;
+}
+
+
 aside {
-    width: 450px;
+    max-width: 450px;
     padding-left: 60px;
     text-shadow: 2px 1px 20px rgba(0, 0, 0, 0.671);
     
